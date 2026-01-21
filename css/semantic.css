@@ -1,0 +1,60 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    background-color: darkgoldenrod;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: purple;
+    padding: 15px;
+}
+nav ul li a:hover{
+    color: gray;
+}
+main{
+    width: 80%;
+    margin: auto;
+    background-color: antiquewhite;
+}
+section{
+    border: 1px solid chocolate;
+    margin-bottom: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px green;
+    background-color: aqua white;
+}
+h2{
+    color: green;
+}
+h3{
+    color: blue;
+}
+.proj{
+    background-color: white;
+    border: 1px solid coral;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px plum;
+}
+footer{
+    background-color: green;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}
+form[textarea]{
+    width: 200px;
+    height: 150px;
+}
